@@ -1,0 +1,35 @@
+{
+  "author": "Gauthier Pompougnac after Benjamin Conlan <benjamin.conlan@foldr.io>",
+  "name": "simple boilerplate",
+  "description": "Took https://bitbucket.org/foldr/foldr.designer.git and modified it to run on grunt 0.4 + some small changes",
+  "version": "0.1.0-alpha",
+  "homepage": "",
+  "private": "true",
+  "bugs": {
+    "url": "https://bitbucket.org/foldr/foldr.designer/issues",
+    "email": "gauthier.pompougnac@gmail.com"
+  },
+  "src": "src",
+  "dist": "dist",
+  "repositories": {
+    "type": "git",
+    "url": "https://bitbucket.org/foldr/foldr.designer.git"
+  },
+  "devDependencies": {
+    "grunt-docco": "~0.1",
+    "grunt-exec": "~0.1",
+    "grunt-reload": "~0.2",
+    "grunt-contrib-jade": "~0.6.0",
+    "grunt-contrib-coffee": "~0.7.0",
+    "grunt-contrib-clean": "~0.4.1",
+    "grunt-contrib-less": "~0.5.2",
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt-contrib-watch": "~0.4.4",
+    "grunt-contrib-jshint": "~0.5.4",
+    "grunt-contrib-connect": "~0.3.0"
+  },
+  "engines": {
+    "node": "~0.8"
+  },
+  "main": "./server.coffee"
+}
